@@ -1,0 +1,286 @@
+pepi2@Laptop-YOGA MINGW64 ~
+$ cd ^[[200~"C:\Users\pepi2\My Drive\cod\test\Bozhidar Yordanov"~
+bash: cd: $'\E[200~C:\\Users\\pepi2\\My Drive\\cod\\test\\Bozhidar Yordanov~': No such file or directory
+
+pepi2@Laptop-YOGA MINGW64 ~
+$ cd "C:\Users\pepi2\My Drive\cod\test\Bozhidar Yordanov"
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov
+$ mkdir Git Exam
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov
+$ mkdir Git_Exam
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov
+$ cd Git_Exam
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam
+$ echo "Hello Git_Exam" > file1.txt
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam
+$ git init
+Initialized empty Git repository in C:/Users/pepi2/My Drive/cod/test/Bozhidar Yordanov/Git_Exam/.git/
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config advice.addEmptyPathspec false"
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (master)
+$ git add .
+warning: in the working copy of 'file1.txt', LF will be replaced by CRLF the next time Git touches it
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (master)
+$ git commit -m "Initial vommit"
+[master (root-commit) a97f64d] Initial vommit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file1.txt
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (master)
+$ git branch dev
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (master)
+$ ^C
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (master)
+$ ^[[200~git checkout -b feature
+bash: $'\E[200~git': command not found
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (master)
+$ git branch dev
+fatal: a branch named 'dev' already exists
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (master)
+$ cear
+bash: cear: command not found
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (master)
+$ cear slm
+bash: cear: command not found
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (master)
+$ cear clm
+bash: cear: command not found
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (master)
+$ ^[[200~echo "file1" > file1.txt
+git commit -m "Add file1"
+bash: $'\E[200~echo': command not found
+
+echo "file2" > file2.txt
+git add .
+git commit -m "Add file2"
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (master)
+$ ^C
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (master)
+$ https://github.com/Magesnik/Git_Exam.git
+bash: https://github.com/Magesnik/Git_Exam.git: No such file or directory
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (master)
+$ git checkout div
+error: pathspec 'div' did not match any file(s) known to git
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (master)
+$ ^C
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (master)
+$ git checkout -b div
+Switched to a new branch 'div'
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (div)
+$ git branch
+  dev
+* div
+  master
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (div)
+$ git checkout dev
+Switched to branch 'dev'
+M       file1.txt
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (dev)
+$ git add .
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (dev)
+$ git commit -m "feat: add table tennis tournament website
+
+- Create hero section with animated ping pong balls
+- Add tournaments grid with 4 featured competitions
+- Implement rankings table for top 10 players
+- Build registration form with Bulgarian validation
+- Add past results section
+- Implement glassmorphism design with gradient theme
+- Add responsive navigation and mobile menu"
+[dev d5ffd7d] feat: add table tennis tournament website
+ 1 file changed, 1 deletion(-)
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (dev)
+$ git push -u origin dev
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (dev)
+$ https://github.com/Magesnik/Git_Exam.git
+bash: https://github.com/Magesnik/Git_Exam.git: No such file or directory
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (dev)
+$ ^C
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (dev)
+$ git remote add origin https://github.com/Magesnik/Git_Exam.git
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (dev)
+$ git remote -v
+origin  https://github.com/Magesnik/Git_Exam.git (fetch)
+origin  https://github.com/Magesnik/Git_Exam.git (push)
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (dev)
+$ ^C
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (dev)
+$ ^C
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (dev)
+$ git push origin dev
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (6/6), 642 bytes | 321.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'dev' on GitHub by visiting:
+remote:      https://github.com/Magesnik/Git_Exam/pull/new/dev
+remote:
+To https://github.com/Magesnik/Git_Exam.git
+ * [new branch]      dev -> dev
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (dev)
+$ git add .
+git commit -m "feat: add table tennis tournament website
+
+- Create hero section with animated ping pong balls
+- Add tournaments grid with 4 featured competitions
+- Implement rankings table for top 10 players
+- Build registration form with Bulgarian validation"
+git push origin dev
+On branch dev
+nothing to commit, working tree clean
+Everything up-to-date
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (dev)
+$ git remote add origin https://github.com/Magesnik/Git_Exam.git
+error: remote origin already exists.
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (dev)
+$ git remote -v
+origin  https://github.com/Magesnik/Git_Exam.git (fetch)
+origin  https://github.com/Magesnik/Git_Exam.git (push)
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (dev)
+$ git commit -m "feat: add table tennis tournament website
+
+- Create hero section with animated ping pong balls
+- Add tournaments grid with 4 featured competitions
+- Implement rankings table for top 10 players
+- Build registration form with Bulgarian validation"
+On branch dev
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   file1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (dev)
+$ git push origin dev
+
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (dev)
+$ # Създай 14 празни файла и ги комитни последователно
+for i in {1..14}; do
+  echo "Change $i" > file$i.txt
+  git add file$i.txt
+  git commit -m "chore: dummy commit $i"
+done
+
+git push origin dev
+warning: in the working copy of 'file1.txt', LF will be replaced by CRLF the next time Git touches it
+[dev f31fc61] chore: dummy commit 1
+ 1 file changed, 1 insertion(+)
+warning: in the working copy of 'file2.txt', LF will be replaced by CRLF the next time Git touches it
+[dev 14aeebc] chore: dummy commit 2
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file2.txt
+warning: in the working copy of 'file3.txt', LF will be replaced by CRLF the next time Git touches it
+[dev c171f24] chore: dummy commit 3
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file3.txt
+warning: in the working copy of 'file4.txt', LF will be replaced by CRLF the next time Git touches it
+[dev 260e197] chore: dummy commit 4
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file4.txt
+warning: in the working copy of 'file5.txt', LF will be replaced by CRLF the next time Git touches it
+[dev 3c0b8b9] chore: dummy commit 5
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file5.txt
+warning: in the working copy of 'file6.txt', LF will be replaced by CRLF the next time Git touches it
+[dev d90cb86] chore: dummy commit 6
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file6.txt
+warning: in the working copy of 'file7.txt', LF will be replaced by CRLF the next time Git touches it
+[dev 25660e8] chore: dummy commit 7
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file7.txt
+warning: in the working copy of 'file8.txt', LF will be replaced by CRLF the next time Git touches it
+[dev 198d007] chore: dummy commit 8
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file8.txt
+warning: in the working copy of 'file9.txt', LF will be replaced by CRLF the next time Git touches it
+[dev 057f864] chore: dummy commit 9
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file9.txt
+warning: in the working copy of 'file10.txt', LF will be replaced by CRLF the next time Git touches it
+[dev e8d7549] chore: dummy commit 10
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file10.txt
+warning: in the working copy of 'file11.txt', LF will be replaced by CRLF the next time Git touches it
+[dev 7d09acb] chore: dummy commit 11
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file11.txt
+warning: in the working copy of 'file12.txt', LF will be replaced by CRLF the next time Git touches it
+[dev 4b9f01a] chore: dummy commit 12
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file12.txt
+warning: in the working copy of 'file13.txt', LF will be replaced by CRLF the next time Git touches it
+[dev 95a578c] chore: dummy commit 13
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file13.txt
+warning: in the working copy of 'file14.txt', LF will be replaced by CRLF the next time Git touches it
+[dev fc945cc] chore: dummy commit 14
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file14.txt
+Enumerating objects: 44, done.
+Counting objects: 100% (44/44), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (27/27), done.
+Writing objects: 100% (42/42), 3.12 KiB | 638.00 KiB/s, done.
+Total 42 (delta 12), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (12/12), done.
+To https://github.com/Magesnik/Git_Exam.git
+   d5ffd7d..fc945cc  dev -> dev
+
+pepi2@Laptop-YOGA MINGW64 ~/My Drive/cod/test/Bozhidar Yordanov/Git_Exam (dev)
+$
+
+
+
+
+--set-upstream      задава връзка с remote branch за push/pull
+-u                  е същото, само е кратката форма
