@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Турнири по Тенис на Маса | Bulgaria Table Tennis</title>
+    <meta name="description" content="Официална платформа за състезания по тенис на маса в България. Регистрирайте се за турнири, вижте класиране и резултати.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="ping-pong-icon">🏓</span>
+                <span class="logo-text">BG Table Tennis</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Начало</a></li>
+                <li><a href="#tournaments" class="nav-link">Турнири</a></li>
+                <li><a href="#rankings" class="nav-link">Класиране</a></li>
+                <li><a href="#register" class="nav-link">Регистрация</a></li>
+                <li><a href="#results" class="nav-link">Резултати</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="ball ball-1"></div>
+            <div class="ball ball-2"></div>
+            <div class="ball ball-3"></div>
+        </div>
+        <div class="container hero-content">
+            <h1 class="hero-title">
+                Състезания по<br>
+                <span class="gradient-text">Тенис на Маса</span>
+            </h1>
+            <p class="hero-subtitle">Присъединете се към най-вълнуващите турнири в България</p>
+            <div class="hero-buttons">
+                <a href="#register" class="btn btn-primary">Регистрирай се</a>
+                <a href="#tournaments" class="btn btn-secondary">Виж турнири</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">150+</div>
+                    <div class="stat-label">Играчи</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">25</div>
+                    <div class="stat-label">Турнири</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">12</div>
+                    <div class="stat-label">Града</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upcoming Tournaments -->
+    <section id="tournaments" class="section tournaments">
+        <div class="container">
+            <h2 class="section-title">Предстоящи Турнири</h2>
+            <p class="section-subtitle">Запишете се за следващите състезания</p>
+            
+            <div class="tournaments-grid">
+                <div class="tournament-card">
+                    <div class="tournament-badge">Отворен</div>
+                    <div class="tournament-icon">🏆</div>
+                    <h3 class="tournament-title">София Опън 2025</h3>
+                    <div class="tournament-info">
+                        <div class="info-item">
+                            <span class="icon">📅</span>
+                            <span>15 Януари 2025</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="icon">📍</span>
+                            <span>Спортна Зала "Арена"</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="icon">👥</span>
+                            <span>Макс 64 играча</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="icon">💰</span>
+                            <span>Награден фонд: 2000 лв</span>
+                        </div>
+                    </div>
+                    <a href="#register" class="btn btn-primary">Запиши се</a>
+                </div>
+
+                <div class="tournament-card">
+                    <div class="tournament-badge featured">Премиум</div>
+                    <div class="tournament-icon">🥇</div>
+                    <h3 class="tournament-title">Национален Шампионат</h3>
+                    <div class="tournament-info">
+                        <div class="info-item">
+                            <span class="icon">📅</span>
+                            <span>28 Януари 2025</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="icon">📍</span>
+                            <span>НДК София</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="icon">👥</span>
+                            <span>Макс 128 играча</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="icon">💰</span>
+                            <span>Награден фонд: 5000 лв</span>
+                        </div>
+                    </div>
+                    <a href="#register" class="btn btn-primary">Запиши се</a>
+                </div>
+
+                <div class="tournament-card">
+                    <div class="tournament-badge">Отворен</div>
+                    <div class="tournament-icon">⭐</div>
+                    <h3 class="tournament-title">Пловдив Къп</h3>
+                    <div class="tournament-info">
+                        <div class="info-item">
+                            <span class="icon">📅</span>
+                            <span>10 Февруари 2025</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="icon">📍</span>
+                            <span>Зала "Колодрума"</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="icon">👥</span>
+                            <span>Макс 32 играча</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="icon">💰</span>
+                            <span>Награден фонд: 1500 лв</span>
+                        </div>
+                    </div>
+                    <a href="#register" class="btn btn-primary">Запиши се</a>
+                </div>
+
+                <div class="tournament-card">
+                    <div class="tournament-badge">Отворен</div>
+                    <div class="tournament-icon">🎯</div>
+                    <h3 class="tournament-title">Варна Мастърс</h3>
+                    <div class="tournament-info">
+                        <div class="info-item">
+                            <span class="icon">📅</span>
+                            <span>22 Февруари 2025</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="icon">📍</span>
+                            <span>СК "Спартак"</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="icon">👥</span>
+                            <span>Макс 48 играча</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="icon">💰</span>
+                            <span>Награден фонд: 1800 лв</span>
+                        </div>
+                    </div>
+                    <a href="#register" class="btn btn-primary">Запиши се</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Player Rankings -->
+    <section id="rankings" class="section rankings">
+        <div class="container">
+            <h2 class="section-title">Класиране на Играчи</h2>
+            <p class="section-subtitle">Топ 10 най-добри играчи в България</p>
+            
+            <div class="rankings-table-container">
+                <table class="rankings-table">
+                    <thead>
+                        <tr>
+                            <th>Позиция</th>
+                            <th>Играч</th>
+                            <th>Град</th>
+                            <th>Точки</th>
+                            <th>Победи</th>
+                            <th>Загуби</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="rank-1">
+                            <td><span class="medal gold">🥇</span></td>
+                            <td><strong>Иван Петров</strong></td>
+                            <td>София</td>
+                            <td><span class="points">2580</span></td>
+                            <td>45</td>
+                            <td>8</td>
+                        </tr>
+                        <tr class="rank-2">
+                            <td><span class="medal silver">🥈</span></td>
+                            <td><strong>Георги Димитров</strong></td>
+                            <td>Пловдив</td>
+                            <td><span class="points">2450</span></td>
+                            <td>42</td>
+                            <td>11</td>
+                        </tr>
+                        <tr class="rank-3">
+                            <td><span class="medal bronze">🥉</span></td>
+                            <td><strong>Мартин Йорданов</strong></td>
+                            <td>Варна</td>
+                            <td><span class="points">2380</span></td>
+                            <td>40</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Петър Стоянов</td>
+                            <td>Бургас</td>
+                            <td><span class="points">2290</span></td>
+                            <td>38</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Никола Василев</td>
+                            <td>София</td>
+                            <td><span class="points">2210</span></td>
+                            <td>35</td>
+                            <td>14</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Александър Георгиев</td>
+                            <td>Русе</td>
+                            <td><span class="points">2150</span></td>
+                            <td>33</td>
+                            <td>16</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Стефан Христов</td>
+                            <td>Плевен</td>
+                            <td><span class="points">2080</span></td>
+                            <td>31</td>
+                            <td>18</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Димитър Колев</td>
+                            <td>Стара Загора</td>
+                            <td><span class="points">2020</span></td>
+                            <td>29</td>
+                            <td>17</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Красимир Тодоров</td>
+                            <td>Благоевград</td>
+                            <td><span class="points">1950</span></td>
+                            <td>27</td>
+                            <td>19</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Валентин Иванов</td>
+                            <td>Бургас</td>
+                            <td><span class="points">1890</span></td>
+                            <td>25</td>
+                            <td>20</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Form -->
+    <section id="register" class="section registration">
+        <div class="container">
+            <h2 class="section-title">Регистрация за Турнир</h2>
+            <p class="section-subtitle">Попълнете формата за да се запишете</p>
+            
+            <div class="registration-container">
+                <form class="registration-form" id="registrationForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">Име</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Фамилия</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Телефон</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="city">Град</label>
+                            <select id="city" name="city" required>
+                                <option value="">Изберете град</option>
+                                <option value="sofia">София</option>
+                                <option value="plovdiv">Пловдив</option>
+                                <option value="varna">Варна</option>
+                                <option value="burgas">Бургас</option>
+                                <option value="ruse">Русе</option>
+                                <option value="pleven">Плевен</option>
+                                <option value="other">Друг</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="tournament">Турнир</label>
+                            <select id="tournament" name="tournament" required>
+                                <option value="">Изберете турнир</option>
+                                <option value="sofia-open">София Опън 2025</option>
+                                <option value="national">Национален Шампионат</option>
+                                <option value="plovdiv-cup">Пловдив Къп</option>
+                                <option value="varna-masters">Варна Мастърс</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="experience">Опит (години)</label>
+                        <input type="number" id="experience" name="experience" min="0" max="50" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Допълнителна информация (по желание)</label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-large">Изпрати регистрация</button>
+                </form>
+
+                <div class="registration-info">
+                    <div class="info-card">
+                        <div class="info-icon">📋</div>
+                        <h3>Изисквания</h3>
+                        <ul>
+                            <li>Минимална възраст: 12 години</li>
+                            <li>Валидна лична карта</li>
+                            <li>Спортно оборудване</li>
+                        </ul>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">💳</div>
+                        <h3>Такси</h3>
+                        <ul>
+                            <li>Отворени турнири: 50 лв</li>
+                            <li>Национален шампионат: 100 лв</li>
+                            <li>Отстъпка за младежи: -20%</li>
+                        </ul>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">📞</div>
+                        <h3>Контакт</h3>
+                        <ul>
+                            <li>Email: info@bgtabletennis.bg</li>
+                            <li>Телефон: +359 888 123 456</li>
+                            <li>Работно време: 9:00 - 18:00</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Past Results -->
+    <section id="results" class="section results">
+        <div class="container">
+            <h2 class="section-title">Минали Резултати</h2>
+            <p class="section-subtitle">Победители от предишни турнири</p>
+            
+            <div class="results-grid">
+                <div class="result-card">
+                    <div class="result-header">
+                        <h3>София Опън 2024</h3>
+                        <span class="result-date">Декември 2024</span>
+                    </div>
+                    <div class="result-winners">
+                        <div class="winner">
+                            <span class="winner-medal">🥇</span>
+                            <span class="winner-name">Иван Петров</span>
+                        </div>
+                        <div class="winner">
+                            <span class="winner-medal">🥈</span>
+                            <span class="winner-name">Георги Димитров</span>
+                        </div>
+                        <div class="winner">
+                            <span class="winner-medal">🥉</span>
+                            <span class="winner-name">Мартин Йорданов</span>
+                        </div>
+                    </div>
+                    <div class="result-stats">
+                        <span>64 участника</span>
+                        <span>•</span>
+                        <span>3 дни</span>
+                    </div>
+                </div>
+
+                <div class="result-card">
+                    <div class="result-header">
+                        <h3>Пловдив Къп 2024</h3>
+                        <span class="result-date">Ноември 2024</span>
+                    </div>
+                    <div class="result-winners">
+                        <div class="winner">
+                            <span class="winner-medal">🥇</span>
+                            <span class="winner-name">Георги Димитров</span>
+                        </div>
+                        <div class="winner">
+                            <span class="winner-medal">🥈</span>
+                            <span class="winner-name">Петър Стоянов</span>
+                        </div>
+                        <div class="winner">
+                            <span class="winner-medal">🥉</span>
+                            <span class="winner-name">Никола Василев</span>
+                        </div>
+                    </div>
+                    <div class="result-stats">
+                        <span>32 участника</span>
+                        <span>•</span>
+                        <span>2 дни</span>
+                    </div>
+                </div>
+
+                <div class="result-card">
+                    <div class="result-header">
+                        <h3>Варна Мастърс 2024</h3>
+                        <span class="result-date">Октомври 2024</span>
+                    </div>
+                    <div class="result-winners">
+                        <div class="winner">
+                            <span class="winner-medal">🥇</span>
+                            <span class="winner-name">Мартин Йорданов</span>
+                        </div>
+                        <div class="winner">
+                            <span class="winner-medal">🥈</span>
+                            <span class="winner-name">Иван Петров</span>
+                        </div>
+                        <div class="winner">
+                            <span class="winner-medal">🥉</span>
+                            <span class="winner-name">Александър Георгиев</span>
+                        </div>
+                    </div>
+                    <div class="result-stats">
+                        <span>48 участника</span>
+                        <span>•</span>
+                        <span>2 дни</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <span class="ping-pong-icon">🏓</span>
+                    <span class="logo-text">BG Table Tennis</span>
+                </div>
+                <p class="footer-description">
+                    Официална платформа за състезания по тенис на маса в България
+                </p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Бързи Линкове</h3>
+                <ul class="footer-links">
+                    <li><a href="#tournaments">Турнири</a></li>
+                    <li><a href="#rankings">Класиране</a></li>
+                    <li><a href="#register">Регистрация</a></li>
+                    <li><a href="#results">Резултати</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Контакти</h3>
+                <ul class="footer-contacts">
+                    <li>📧 info@bgtabletennis.bg</li>
+                    <li>📞 +359 888 123 456</li>
+                    <li>📍 София, България</li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Социални Мрежи</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">YouTube</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 BG Table Tennis. Всички права запазени.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
